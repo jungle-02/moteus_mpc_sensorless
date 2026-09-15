@@ -84,7 +84,6 @@ This project implements a **Cascaded Hybrid Control Framework** on the **moteus-
                                                                  +--------------+
 ```
 
----
 
 ## 📐 Control & Estimation Algorithms
 
