@@ -161,10 +161,6 @@ Experimental tests conducted on the **moteus-n1 (STM32G474)** hardware platform 
 
 ---
 
-Dưới đây là mục References được định dạng lại bằng Markdown table (bảng) để đồng bộ với phong cách trình bày của phần **Experimental Results & Benchmarks** mà bạn vừa cung cấp:
-
-Dưới đây là bảng References chỉ giữ lại đúng nguyên bản các link và tên file như bạn yêu cầu:
-
 ## 📚 References
 
 | Ref | Link / Source |
