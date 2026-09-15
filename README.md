@@ -166,20 +166,23 @@ Experimental tests conducted on the **moteus-n1 (STM32G474)** hardware platform 
 
 Dưới đây là mục References được định dạng lại bằng Markdown table (bảng) để đồng bộ với phong cách trình bày của phần **Experimental Results & Benchmarks** mà bạn vừa cung cấp:
 
+Dưới đây là bảng References chỉ giữ lại đúng nguyên bản các link và tên file như bạn yêu cầu:
+
 ## 📚 References
 
-| Ref | Document / Title | Source / Link |
-| --- | --- | --- |
-| **[1]** | **Selecting The Right Motor For Your Design** | [ResearchGate](https://www.researchgate.net/publication/354248772_Selecting_The_Right_Motor_For_Your_Design) |
-| **[2]** | **Field Oriented Control Technique for PMSM** | [ResearchGate](https://www.researchgate.net/publication/370424694_Field_Oriented_Control_Technique_for_PMSM) |
-| **[3]** | **S. Kalombo STC2021** *(Conference Paper)* | [PDF Access](https://control.fs.cvut.cz/wp-content/uploads/2022/01/S_Kalombo_STC2021.pdf) |
-| **[4]** | **Research Article (DOI: 10.1155/2022/3328719)** | [Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1155/2022/3328719) |
-| **[5]** | **311-322_3029-7089-1-RV.pdf** | *Local / Provided File* |
-| **[6]** | **Maximum Torque per Ampere (MTPA) Control of an IPM** *(Kim & Yoon)* | [Semantic Scholar](https://www.semanticscholar.org/paper/Maximum-Torque-per-Ampere-%28MTPA%29-Control-of-an-IPM-Kim-Yoon/abd315156dfd01e39b86cc6d7c3db1109cc44f21) |
-| **[7]** | **On Finding the Relevant Dynamics for Model-Based Controlling Walking Robots** | [ResearchGate](https://www.researchgate.net/publication/226701981_On_Finding_the_Relevant_Dynamics_for_Model-Based_Controlling_Walking_Robots) |
-| **[8]** | **TPEL.2020.3000785.pdf** *(IEEE Transactions on Power Electronics)* | *Local / Provided File* |
-| **[9]** | **JST HAUI Research Document** | [PDF Access](https://jst-haui.vn/media/30/uffile-upload-no-title30447.pdf) |
-| **[10]** | **ScienceDirect Chapter (pii: B978012382036500015X)** | [ScienceDirect](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B978012382036500015X) |
-| **[11]** | **ScienceDirect Article (pii: S0045790620305668)** | [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0045790620305668) |
+| Ref | Link / Source |
+| --- | --- |
+| **[1]** | [https://www.researchgate.net/publication/354248772_Selecting_The_Right_Motor_For_Your_Design](https://www.researchgate.net/publication/354248772_Selecting_The_Right_Motor_For_Your_Design) |
+| **[2]** | [https://www.researchgate.net/publication/370424694_Field_Oriented_Control_Technique_for_PMSM](https://www.researchgate.net/publication/370424694_Field_Oriented_Control_Technique_for_PMSM) |
+| **[3]** | [https://control.fs.cvut.cz/wp-content/uploads/2022/01/S_Kalombo_STC2021.pdf](https://control.fs.cvut.cz/wp-content/uploads/2022/01/S_Kalombo_STC2021.pdf) |
+| **[4]** | [https://onlinelibrary.wiley.com/doi/10.1155/2022/3328719](https://onlinelibrary.wiley.com/doi/10.1155/2022/3328719) |
+| **[5]** | 311-322_3029-7089-1-RV.pdf |
+| **[6]** | [https://www.semanticscholar.org/paper/Maximum-Torque-per-Ampere-%28MTPA%29-Control-of-an-IPM-Kim-Yoon/abd315156dfd01e39b86cc6d7c3db1109cc44f21](https://www.semanticscholar.org/paper/Maximum-Torque-per-Ampere-%28MTPA%29-Control-of-an-IPM-Kim-Yoon/abd315156dfd01e39b86cc6d7c3db1109cc44f21) |
+| **[7]** | [https://www.researchgate.net/publication/226701981_On_Finding_the_Relevant_Dynamics_for_Model-Based_Controlling_Walking_Robots](https://www.researchgate.net/publication/226701981_On_Finding_the_Relevant_Dynamics_for_Model-Based_Controlling_Walking_Robots) |
+| **[8]** | TPEL.2020.3000785.pdf |
+| **[9]** | [https://jst-haui.vn/media/30/uffile-upload-no-title30447.pdf](https://jst-haui.vn/media/30/uffile-upload-no-title30447.pdf) |
+| **[10]** | [https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B978012382036500015X](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B978012382036500015X) |
+| **[11]** | [https://www.sciencedirect.com/science/article/abs/pii/S0045790620305668](https://www.sciencedirect.com/science/article/abs/pii/S0045790620305668) |
 
 ---
+
