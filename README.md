@@ -89,38 +89,51 @@ This project implements a **Cascaded Hybrid Control Framework** on the **moteus-
 ## 📐 Control & Estimation Algorithms
 
 ### 1. Hierarchical Cascade Control (MPC-FOC)
+
 * **Outer Loop (MPC)**:
   Discrete state space model:
+
   $$
   \begin{bmatrix} \omega_m(k+1) \\ \theta_m(k+1) \end{bmatrix} = \begin{bmatrix} 1 - \frac{T_s B_m}{J} & 0 \\ T_s & 1 \end{bmatrix} \begin{bmatrix} \omega_m(k) \\ \theta_m(k) \end{bmatrix} + \begin{bmatrix} \frac{T_s}{J} \\ 0 \end{bmatrix} (T_e(k) - T_m(k))
   $$
+
   Formulated as a Quadratic Programming (QP) problem:
+
   $$
   \min_{\Delta U} \frac{1}{2} \Delta U^T H \Delta U + f^T \Delta U \quad \text{s.t.} \quad M \Delta U \le N
   $$
+
   Solved online via **Hildreth's QP algorithm**.
 
 * **Inner Loop (FOC)**:
   PI current controllers tuned via **pole-zero cancellation**:
+
   $$
   K_p = \frac{L_s}{4 \zeta^2 \tau_d}, \quad K_i = \frac{R_s}{L_s} K_p
   $$
 
 ### 2. Improved Adaptive Sliding Mode Observer (IASMO)
+
 * **Integral Sliding Surface**:
+
   $$
   S_n = \tilde{i}_s + \chi \int_0^t \tilde{i}_s d\tau
   $$
+
 * **Adaptive Continuous Gain**:
+
   $$
   H(S) = \tanh(aS), \quad k_i(t) = \begin{cases} K_0 |S_i| & |S_i| \neq 0 \\ K_1 & |S_i| \approx 0 \end{cases}
   $$
+
 * **Internal PLL Phase Locking**:
+
   $$
   \frac{d\hat{e}_\alpha}{dt} = -\hat{\omega}_e \hat{e}_\beta - l \tilde{e}_\alpha, \quad \frac{d\hat{e}_\beta}{dt} = \hat{\omega}_e \hat{e}_\alpha - l \tilde{e}_\beta, \quad \frac{d\hat{\omega}_e}{dt} = \tilde{e}_\alpha \hat{e}_\beta - \tilde{e}_\beta \hat{e}_\alpha
   $$
 
 ### 3. Online RLS Parameter Identification & Kalman Torque Observer
+
 * **RLS**: Dynamically estimates $R_s$, $L_d$, $L_q$, and flux linkage $\lambda_m$ with forgetting factor and thermal clamping.
 * **Kalman Filter**: Estimates load torque $T_L$ from $T_e$ and estimated speed, passing smoothed $T_{\text{load,hat}}$ to MPC for immediate disturbance feedforward compensation.
 
