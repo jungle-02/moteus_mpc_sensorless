@@ -20,12 +20,9 @@ Developed as an Engineering Thesis at **Ho Chi Minh City University of Technolog
   - [Improved Adaptive Sliding Mode Observer (IASMO)](#2-improved-adaptive-sliding-mode-observer-iasmo)
   - [Online RLS Parameter Identification & Kalman Torque Observer](#3-online-rls-parameter-identification--kalman-torque-observer)
 - [Hardware Setup](#-hardware-setup)
-- [Software & Firmware Structure](#-software--firmware-structure)
 - [Control GUI & Monitoring](#-control-gui--monitoring)
 - [Experimental Results & Benchmarks](#-experimental-results--benchmarks)
-- [Getting Started](#-getting-started)
-- [Thesis Citation](#-thesis-citation)
-- [License & Acknowledgments](#-license--acknowledgments)
+- [References](#-references)
 
 ---
 
