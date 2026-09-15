@@ -126,31 +126,6 @@ This project implements a **Cascaded Hybrid Control Framework** on the **moteus-
 
 ---
 
-## 💻 Software & Firmware Structure
-
-```
-├── firmware/
-│   ├── Core/
-│   │   ├── Src/
-│   │   │   ├── main.c              # Main loop (5 kHz MPC & Kalman trigger)
-│   │   │   ├── foc_svpwm.c         # 20 kHz Timer 1 ISR for FOC & SVPWM
-│   │   │   ├── iasmo_observer.c    # IASMO sliding mode observer implementation
-│   │   │   ├── mpc_hildreth.c      # Hildreth QP solver & offline matrices
-│   │   │   ├── rls_ident.c         # Online parameter identification
-│   │   │   └── drv8353s.c          # SPI driver configuration
-│   │   └── Inc/
-│   │       └── motor_config.h      # Motor constants & loop tuning parameters
-├── gui/
-│   ├── main_gui.py                 # PyQt5 dashboard entry point
-│   ├── fdcan_worker.py             # ZeroMQ & FDCAN interface thread
-│   └── dashboards/                 # Real-time plotting widgets
-├── simulation/
-│   └── pmsm_mpc_iasmo_sim.slx      # MATLAB/Simulink validation model
-└── README.md                       # Repository Documentation
-```
-
----
-
 ## 🎛 Control GUI & Monitoring
 
 The desktop GUI built with **PyQt5** features a 4-tab live dashboard communicating with the hardware at **50 Hz**:
