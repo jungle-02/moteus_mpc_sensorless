@@ -2,7 +2,6 @@
 
 [![MCU](https://img.shields.io/badge/MCU-STM32G474CEU6-blue.svg)](https://www.st.com/)
 [![Driver](https://img.shields.io/badge/Hardware-moteus--n1-orange.svg)](https://mjbots.com)
-[![License](https://img.shields.io/badge/License-Academic%20/ %20MIT-green.svg)](#license)
 [![Python](https://img.shields.io/badge/GUI-PyQt5%20%7C%20ZeroMQ-yellow.svg)](#control-gui--monitoring)
 [![Status](https://img.shields.io/badge/Status-Completed%20(Thesis%202026)-brightgreen.svg)](#thesis-citation)
 
@@ -164,4 +163,6 @@ Experimental tests conducted on the **moteus-n1 (STM32G474)** hardware platform 
 | **Triangular Wave** | $\pm 15\text{ rad/s}$ | $\mathbf{\pm 0.5\text{ rad/s}}$ ($\approx 3.3\%$) | $< 10\%$ (peaks) | Robust handling during rapid acceleration reversals. |
 
 ---
+
+📚 ReferencesRefDocument / TitleSource / Link[1]Selecting The Right Motor For Your DesignResearchGate[2]Field Oriented Control Technique for PMSMResearchGate[3]S. Kalombo STC2021 (Conference Paper)PDF Access[4]Research Article (DOI: 10.1155/2022/3328719)Wiley Online Library[5]311-322_3029-7089-1-RV.pdfLocal / Provided File[6]Maximum Torque per Ampere (MTPA) Control of an IPM (Kim & Yoon)Semantic Scholar[7]On Finding the Relevant Dynamics for Model-Based Controlling Walking RobotsResearchGate[8]TPEL.2020.3000785.pdf (IEEE Transactions on Power Electronics)Local / Provided File[9]JST HAUI Research DocumentPDF Access[10]ScienceDirect Chapter (pii: B978012382036500015X)ScienceDirect[11]ScienceDirect Article (pii: S0045790620305668)ScienceDirect
 
