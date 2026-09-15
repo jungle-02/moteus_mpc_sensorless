@@ -172,15 +172,5 @@ Experimental tests conducted on the **moteus-n1 (STM32G474)** hardware platform 
 | **Bell-Shaped Curve** | $0 \to 30\text{ rad/s}$ | $\mathbf{\pm 0.5\text{ rad/s}}$ ($\approx 1.67\%$) | $< 3.5\%$ | Smooth acceleration and deceleration response. |
 | **Triangular Wave** | $\pm 15\text{ rad/s}$ | $\mathbf{\pm 0.5\text{ rad/s}}$ ($\approx 3.3\%$) | $< 10\%$ (peaks) | Robust handling during rapid acceleration reversals. |
 
-### Quantitative Comparison: Traditional PID vs. Proposed MPC-IASMO
-
-| Parameter / Metric | Traditional Fixed-Gain PID | Proposed MPC-IASMO System |
-| :--- | :--- | :--- |
-| **Peak Tracking Error** | $\approx \pm 6.0\text{ rad/s}$ ($24.0\%$) | **$\approx \pm 1.0\text{ rad/s}$ ($4.0\%$)** |
-| **Average Steady-State Error**| $\approx \pm 3.0\text{ rad/s}$ | **$\approx \pm 0.5\text{ rad/s}$ ($2.0\%$)** |
-| **Chattering / Ripple** | Severe, dense oscillations | **Controlled, smooth convergence** |
-| **Error Variance** | Unstable / Non-convergent | **Converges to $< 0.09\text{ (rad/s)}^2$** |
-| **Disturbance Recovery** | Slow, susceptible to load steps | **$< 0.2\text{s}$ recovery under $0.1\text{ Nm}$ step load** |
-
 ---
 
