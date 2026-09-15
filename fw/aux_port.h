@@ -35,7 +35,7 @@
 #include "fw/cui_amt21.h"
 #include "fw/cui_amt22.h"
 #include "fw/ic_pz.h"
-#include "fw/math.h"
+#include "fw/moteus_math.h"
 #include "fw/ma732.h"
 #include "fw/millisecond_timer.h"
 #include "fw/moteus_hw.h"

@@ -28,7 +28,7 @@
 #include "fw/aux_common.h"
 #include "fw/bldc_servo_structs.h"
 #include "fw/ccm.h"
-#include "fw/math.h"
+#include "fw/moteus_math.h"
 
 namespace moteus {
 

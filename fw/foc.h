@@ -17,7 +17,7 @@
 #include <algorithm>
 #include <cmath>
 
-#include "fw/math.h"
+#include "fw/moteus_math.h"
 
 #ifdef TARGET_STM32G4
 #include "stm32g4xx_ll_cordic.h"

@@ -33,7 +33,7 @@ cc_library(
         "ccm.h",
         "error.h",
         "foc.h",
-        "math.h",
+        "moteus_math.h",
         "measured_hw_rev.h",
         "motor_position.h",
         "pid.h",
@@ -61,7 +61,6 @@ cc_library(
     name = "git_info",
     hdrs = ["git_info.h"],
     srcs = ["git_info.cc"],
-    linkstamp = "git_info_linkstamp.cc",
     deps = [
         "@com_github_mjbots_mjlib//mjlib/base:visitor",
     ],

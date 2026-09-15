@@ -16,7 +16,7 @@
 
 #include <algorithm>
 
-#include "fw/math.h"
+#include "fw/moteus_math.h"
 
 namespace moteus {
 

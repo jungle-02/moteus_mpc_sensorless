@@ -27,7 +27,7 @@
 
 #include "fw/bldc_servo_position.h"
 #include "fw/foc.h"
-#include "fw/math.h"
+#include "fw/moteus_math.h"
 #include "fw/moteus_hw.h"
 #include "fw/stm32g4_adc.h"
 #include "fw/thermistor.h"

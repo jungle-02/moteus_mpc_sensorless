@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/moteus/third_party/mbed-os/targets/TARGET_STM/TARGET_STM32G4/TARGET_STM32G474xE/device/TOOLCHAIN_GCC_ARM/startup_stm32g474xx.S
+

@@ -18,7 +18,7 @@
 
 #include "fw/aux_port.h"
 #include "fw/drv8323.h"
-#include "fw/math.h"
+#include "fw/moteus_math.h"
 #include "fw/moteus_hw.h"
 #include "fw/motor_position.h"
 

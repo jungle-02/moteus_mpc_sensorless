@@ -17,7 +17,7 @@ async def main():
 
     # Parameters for position control
     position_tolerance = 0.05 # Sai so chap nhan duoc de coi la da den vi tri (rad)
-    move_speed_limit = 2.0    # Gioi han van toc khi di chuyen (rad/s)
+    move_speed_limit = 4.0    # Gioi han van toc khi di chuyen (rad/s)
 
     # Parameters for stop behavior
     min_stop_duration = 3.0 # Thoi gian dung toi thieu (s)

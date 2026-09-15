@@ -1,0 +1,3 @@
+/work/test_verify/build/CMakeFiles/rebuild_cache.dir
+/work/test_verify/build/CMakeFiles/edit_cache.dir
+/work/test_verify/build/CMakeFiles/test_bin.dir
